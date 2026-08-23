@@ -1,0 +1,25 @@
+[
+    {
+        "imageClass": "project-image",
+        "image": "assets/placeholder.png",
+        "imageAlt": "Placeholder image for a project",
+        "tags": [
+            { "label": "HTML/CSS", "className": "tag-html" },
+            { "label": "C#", "className": "tag-csharp" },
+            { "label": ".NET", "className": "tag-blue" },
+            { "label": "SQLite", "className": "tag-purple" },
+            { "label": "React", "className": "tag-react" },
+            { "label": "JavaScript", "className": "tag-yellow" }
+        ],
+        "title": {
+            "en": "Placeholder Project",
+            "pt": "Projeto de Exemplo"
+        },
+        "description": {
+            "en": "A project placeholder for showcasing skills and technologies.",
+            "pt": "Um projeto de exemplo para demonstrar habilidades e tecnologias."
+        },
+        "codeUrl": "https://github.com/jdmlopes",
+        "demoUrl": "#"
+    }
+]

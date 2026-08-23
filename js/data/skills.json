@@ -1,0 +1,98 @@
+[
+    {
+        "kicker": {
+            "en": "Programming languages",
+            "pt": "Linguagens de programação"
+        },
+        "title": {
+            "en": "Languages",
+            "pt": "Linguagens"
+        },
+        "icon": "bi-code-slash",
+        "tags": ["C#", "C/C++", "JavaScript", "Python", "SQL", "HTML", "CSS"]
+    },
+    {
+        "kicker": {
+            "en": "Server-side development",
+            "pt": "Desenvolvimento backend"
+        },
+        "title": {
+            "en": "Backend",
+            "pt": "Backend"
+        },
+        "icon": "bi-braces",
+        "tags": [".NET", "ASP.NET Core", "Entity Framework", "REST APIs"]
+    },
+    {
+        "kicker": {
+            "en": "Data storage",
+            "pt": "Armazenamento de dados"
+        },
+        "title": {
+            "en": "Databases",
+            "pt": "Banco de Dados"
+        },
+        "icon": "bi-database",
+        "tags": ["SQL Server", "PostgreSQL", "SQLite", "MongoDB"]
+    },
+    {
+        "kicker": {
+            "en": "User interfaces",
+            "pt": "Interfaces de usuário"
+        },
+        "title": {
+            "en": "Frontend/UI",
+            "pt": "Frontend/UI"
+        },
+        "icon": "bi-layout-text-window-reverse",
+        "tags": ["React", "Blazor", "Razor Pages", "Bootstrap", "Sass"]
+    },
+    {
+        "kicker": {
+            "en": "Infrastructure and tools",
+            "pt": "DevOps e ferramentas"
+        },
+        "title": {
+            "en": "DevOps & Tools",
+            "pt": "DevOps e Ferramentas"
+        },
+        "icon": "bi-tools",
+        "tags": ["Git", "GitHub", "Docker"]
+    },
+    {
+        "kicker": {
+            "en": "Artificial intelligence and automation",
+            "pt": "Inteligência artificial e automação"
+        },
+        "title": {
+            "en": "AI & Automation",
+            "pt": "IA e Automação"
+        },
+        "icon": "bi-robot",
+        "tags": ["Claude Code", "GitHub Copilot", "n8n", "Ollama", "Prompt Engineering"]
+    },
+    {
+        "kicker": {
+            "en": "Interactive experiences",
+            "pt": "Experiências interativas"
+        },
+        "title": {
+            "en": "Game Development",
+            "pt": "Desenvolvimento de Jogos"
+        },
+        "icon": "bi-controller",
+        "tags": ["Unity", "Unreal Engine", "Godot"]
+    },
+    {
+        "kicker": {
+            "en": "Best Practices & Methodologies",
+            "pt": "Boas Práticas e Metodologias"
+        },
+        "title": {
+            "en": "Foundations",
+            "pt": "Fundamentos"
+        },
+        "icon": "bi-hand-thumbs-up",
+        "tags": ["Design Patterns", "SOLID", "Scrum", "Kanban"]
+    }
+]
