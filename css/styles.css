@@ -362,7 +362,7 @@ body:before {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background: linear-gradient(145deg, #1f5369, #0b2332);
+    background: linear-gradient(145deg, #183d4d, #06131b);
     border: 1px solid var(--blue);
     display: grid;
     place-items: center;
