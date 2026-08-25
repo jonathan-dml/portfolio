@@ -1,25 +1,21 @@
 [
     {
         "imageClass": "project-image",
-        "image": "assets/placeholder.png",
-        "imageAlt": "Placeholder image for a project",
+        "image": "assets/qrcodegen.png",
+        "imageAlt": "QR Code Generator image",
         "tags": [
             { "label": "HTML/CSS", "className": "tag-html" },
-            { "label": "C#", "className": "tag-csharp" },
-            { "label": ".NET", "className": "tag-blue" },
-            { "label": "SQLite", "className": "tag-purple" },
-            { "label": "React", "className": "tag-react" },
             { "label": "JavaScript", "className": "tag-yellow" }
         ],
         "title": {
-            "en": "Placeholder Project",
-            "pt": "Projeto de Exemplo"
+            "en": "QR Code Generator",
+            "pt": "Gerador de QR Code"
         },
         "description": {
-            "en": "A project placeholder for showcasing skills and technologies.",
-            "pt": "Um projeto de exemplo para demonstrar habilidades e tecnologias."
+            "en": "A simple qr code generator.",
+            "pt": "Um gerador de qr code simples."
         },
-        "codeUrl": "https://github.com/jdmlopes",
-        "demoUrl": "#"
+        "codeUrl": "https://github.com/jonathan-dml/qrcode_generator",
+        "demoUrl": "https://jonathan-dml.github.io/qrcode_generator/"
     }
 ]

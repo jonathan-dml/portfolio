@@ -56,7 +56,7 @@ function updateProjectText(projects) {
     });
 }
 
-function createProjectLink(url, label, icon, opensNewTab = false) {
+function createProjectLink(url, label, icon, opensNewTab = true) {
     const link = document.createElement("a");
     link.className = `project-button ${
         label === "Code" ? "project-button-dark" : "project-button-blue"
