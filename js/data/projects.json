@@ -35,10 +35,29 @@
             "pt": "Gerador de QR Code"
         },
         "description": {
-            "en": "A simple qr code generator.",
-            "pt": "Um gerador de qr code simples."
+            "en": "A simple qr code generator for text and URLs.",
+            "pt": "Um gerador de qr code simples para texto e URLs."
         },
         "codeUrl": "https://github.com/jonathan-dml/qrcode_generator",
         "demoUrl": "https://jonathan-dml.github.io/qrcode_generator/"
+    },
+    {
+        "imageClass": "project-image",
+        "image": "assets/squarepainter.png",
+        "imageAlt": "Square Painter image",
+        "tags": [
+            { "label": "HTML/CSS", "className": "tag-html" },
+            { "label": "JavaScript", "className": "tag-yellow" }
+        ],
+        "title": {
+            "en": "Square Painter: Pixel Art Editor",
+            "pt": "Square Painter: Editor de Pixel Art"
+        },
+        "description": {
+            "en": "A pixel art editor that allows you to create pixel art and export it as an image.",
+            "pt": "Um editor de pixel art que permite criar arte de pixel e exportá-la como uma imagem."
+        },
+        "codeUrl": "https://github.com/jonathan-dml/square-painter",
+        "demoUrl": "https://jonathan-dml.github.io/square-painter/"
     }
 ]
