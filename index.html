@@ -134,23 +134,14 @@
             <section class="hero section-shell" id="home">
                 <div class="container-xl hero-grid">
                     <div class="hero-copy reveal">
-                        <p class="eyebrow">
-                            <span class="eyebrow-line"></span
-                            ><span data-i18n="available"
-                                >Available for opportunities</span
-                            >
-                        </p>
+                       
                         <p class="hero-greeting" data-i18n="greeting">
-                            Hello, I'm Jonathan.
+                            Hello, I'm a software engineer.
                         </p>
                         <h1 data-i18n="heroTitle">
-                            Software<br /><em>Developer</em>
+                            Jonathan <br /><em>Lopes</em>
                         </h1>
-                        <p class="hero-description" data-i18n="heroDescription">
-                            I build thoughtful, reliable digital experiences
-                            with a backend-first mindset and a sharp eye for the
-                            interface.
-                        </p>
+                        
                         <div class="hero-actions">
                             <a class="button button-primary" href="#projects"
                                 ><span data-i18n="seeProjects"
@@ -194,13 +185,6 @@
                             <div class="orbit-dot dot-one"></div>
                             <div class="orbit-dot dot-two"></div>
                         </div>
-                        <div class="hero-note">
-                            <span class="mono-label">01 / 04</span>
-                            <p data-i18n="heroNote">
-                                Turning complex problems into clear, useful
-                                products.
-                            </p>
-                        </div>
                     </div>
                 </div>
                 <div class="scroll-cue">
@@ -212,14 +196,8 @@
             <section class="content-section section-shell" id="about">
                 <div class="container-xl">
                     <div class="section-heading reveal">
-                        <p class="eyebrow">
-                            <span class="eyebrow-line"></span>01 /
+                        <h2 class="section-title">
                             <span data-i18n="aboutLabel">About</span>
-                        </p>
-                        <h2 data-i18n="aboutTitle">
-                            Building with purpose,<br /><em
-                                >learning constantly.</em
-                            >
                         </h2>
                     </div>
                     <div class="about-grid">
@@ -231,26 +209,23 @@
                             </p>
                             <div class="rule"></div>
                             <p data-i18n="aboutText">
-                                My work lives at the intersection of robust
-                                backend systems and human-centered interfaces. I
-                                enjoy taking a problem from its first sketch to
-                                a dependable, polished result.
+                                
                             </p>
                         </div>
                         <div class="about-details reveal reveal-delay">
                             <div class="detail-row">
-                                <span class="mono-label">Currently</span
+                                <span class="mono-label" data-i18n="currentlyLabel">Currently</span
                                 ><strong data-i18n="currently"
                                     >Studying Information Systems<br />at PUC
                                     Minas</strong
                                 >
                             </div>
                             <div class="detail-row">
-                                <span class="mono-label">Based in</span
+                                <span class="mono-label" data-i18n="basedInLabel">Based in</span
                                 ><strong>Belo Horizonte, MG<br />Brazil</strong>
                             </div>
                             <div class="detail-row">
-                                <span class="mono-label">Languages</span
+                                <span class="mono-label" data-i18n="languagesLabel">Languages</span
                                 ><strong
                                     >Português · English<br />日本語</strong
                                 >
@@ -262,20 +237,10 @@
 
             <section class="content-section section-shell" id="skills">
                 <div class="container-xl">
-                    <div class="section-heading split-heading reveal">
-                        <div>
-                            <p class="eyebrow">
-                                <span class="eyebrow-line"></span>02 /
-                                <span data-i18n="skillsLabel">Skills</span>
-                            </p>
-                            <h2 data-i18n="skillsTitle">
-                                A versatile<br /><em>toolkit.</em>
-                            </h2>
-                        </div>
-                        <p class="heading-aside" data-i18n="skillsAside">
-                            The tools I use to turn ideas into maintainable,
-                            scalable software.
-                        </p>
+                    <div class="section-heading reveal">
+                        <h2 class="section-title">
+                            <span data-i18n="skillsLabel">Skills</span>
+                        </h2>
                     </div>
                     <div class="skills-grid"></div>
                 </div>
@@ -283,21 +248,12 @@
 
             <section class="content-section section-shell" id="projects">
                 <div class="container-xl">
-                    <div class="section-heading split-heading reveal">
-                        <div>
-                            <p class="eyebrow">
-                                <span class="eyebrow-line"></span>03 /
-                                <span data-i18n="projectsLabel"
-                                    >Selected work</span
-                                >
-                            </p>
-                            <h2 data-i18n="projectsTitle">
-                                Things I've<br /><em>worked on.</em>
-                            </h2>
-                        </div>
-                        <p class="heading-aside" data-i18n="projectsAside">
-                            A few spaces where engineering and curiosity meet.
-                        </p>
+                    <div class="section-heading reveal">
+                        <h2 class="section-title">
+                            <span data-i18n="projectsLabel"
+                                >Projects</span
+                            >
+                        </h2>
                     </div>
                     <div class="projects-grid"></div>
                 </div>
@@ -306,17 +262,9 @@
             <section class="contact-section section-shell" id="contact">
                 <div class="container-xl contact-grid">
                     <div class="contact-copy reveal">
-                        <p class="eyebrow">
-                            <span class="eyebrow-line"></span>04 /
+                        <h2 class="section-title">
                             <span data-i18n="contactLabel">Contact</span>
-                        </p>
-                        <h2 data-i18n="contactTitle">
-                            Let's make<br /><em>something useful.</em>
                         </h2>
-                        <p data-i18n="contactText">
-                            Have a project in mind, or just want to say hello?
-                            My inbox is always open.
-                        </p>
                     </div>
                     <form
                         class="contact-form reveal reveal-delay"
@@ -329,7 +277,8 @@
                                 id="name"
                                 name="name"
                                 type="text"
-                                placeholder="Fulano de Tal"
+                                placeholder="Jonh Doe"
+                                data-i18n-placeholder="namePlaceholder"
                                 required
                             />
                         </div>
@@ -341,6 +290,7 @@
                                 name="email"
                                 type="email"
                                 placeholder="you@email.com"
+                                data-i18n-placeholder="emailPlaceholder"
                                 required
                             />
                         </div>
@@ -351,7 +301,8 @@
                                 id="message"
                                 name="message"
                                 rows="3"
-                                placeholder="Escreva uma mensagem..."
+                                placeholder="Write a message..."
+                                data-i18n-placeholder="messagePlaceholder"
                                 required
                             ></textarea>
                         </div>
@@ -368,7 +319,7 @@
         <footer>
             <div class="container-xl">
                 <span class="brand-mark">Jdml<span>.</span></span
-                ><span>© 2026 Jonathan David Mendes Lopes</span
+                ><span>© Jonathan Lopes</span
                 ><a href="#home"
                     ><i class="bi bi-arrow-up"></i>
                     <span data-i18n="backTop">Back to top</span></a

@@ -221,21 +221,18 @@ body:before {
     align-items: center;
     gap: 4rem;
 }
-.eyebrow {
-    font: 500 0.68rem var(--mono);
+.section-title {
+    font: 500 1.2rem var(--mono);
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--blue);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     margin: 0 0 27px;
-}
-.eyebrow-line {
-    width: 29px;
-    height: 1px;
-    background: var(--blue);
-    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 .hero-greeting {
     color: var(--blue-bright);
@@ -445,17 +442,7 @@ body:before {
     line-height: 0.98;
     margin: 0;
 }
-.split-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    gap: 30px;
-}
-.heading-aside {
-    color: var(--muted);
-    max-width: 260px;
-    margin: 0 0 5px;
-}
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -589,6 +576,8 @@ body:before {
     gap: 18px;
 }
 .project-card {
+    display: flex;
+    flex-direction: column;
     background: #20262a;
     border: 1px solid rgba(255, 255, 255, 0.04);
     overflow: hidden;
@@ -702,7 +691,9 @@ body:before {
 .tag-purple { background: #6337c8; }
 .tag-react { background: #087ca3; }
 .project-info {
-    display: block;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding: 18px 16px 16px;
 }
 .project-info h3 {
@@ -718,6 +709,7 @@ body:before {
 .project-actions {
     display: flex;
     gap: 8px;
+    margin-top: auto;
 }
 .project-button {
     display: inline-flex;
@@ -751,10 +743,10 @@ body:before {
 }
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 9rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
 }
-.contact-copy > p:not(.eyebrow) {
+.contact-copy > p:not(.section-title) {
     color: var(--muted);
     max-width: 345px;
     margin: 30px 0 22px;
@@ -908,12 +900,6 @@ footer a:hover {
     }
     .content-section {
         padding: 100px 0;
-    }
-    .split-heading {
-        display: block;
-    }
-    .heading-aside {
-        margin-top: 24px;
     }
     .about-grid,
     .contact-grid {

@@ -8,6 +8,10 @@ function setLanguage(language) {
         if (translations[language][element.dataset.i18n])
             element.innerHTML = translations[language][element.dataset.i18n];
     });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+        if (translations[language][element.dataset.i18nPlaceholder])
+            element.placeholder = translations[language][element.dataset.i18nPlaceholder];
+    });
     document
         .querySelectorAll(".dropdown-item")
         .forEach((item) =>

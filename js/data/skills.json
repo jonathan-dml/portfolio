@@ -21,7 +21,7 @@
             "pt": "Backend"
         },
         "icon": "bi-braces",
-        "tags": [".NET", "ASP.NET Core", "Entity Framework", "REST APIs"]
+        "tags": [".NET", "ASP.NET Core", "Entity Framework", "Node.js", "REST APIs"]
     },
     {
         "kicker": {
@@ -57,7 +57,7 @@
             "pt": "DevOps e Ferramentas"
         },
         "icon": "bi-tools",
-        "tags": ["Git", "GitHub", "Docker"]
+    "tags": ["Git", "GitHub", "Docker", "Azure", "GitHub Actions"]
     },
     {
         "kicker": {
@@ -70,18 +70,6 @@
         },
         "icon": "bi-robot",
         "tags": ["Claude Code", "GitHub Copilot", "n8n", "Ollama", "Prompt Engineering"]
-    },
-    {
-        "kicker": {
-            "en": "Interactive experiences",
-            "pt": "Experiências interativas"
-        },
-        "title": {
-            "en": "Game Development",
-            "pt": "Desenvolvimento de Jogos"
-        },
-        "icon": "bi-controller",
-        "tags": ["Unity", "Unreal Engine", "Godot"]
     },
     {
         "kicker": {
