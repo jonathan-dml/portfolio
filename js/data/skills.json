@@ -31,10 +31,10 @@
         },
         "icon": "bi-braces",
         "tags": [
-            { "name": ".NET", "icon": "devicon-dot-net-plain" },
+            { "name": ".NET Framework", "icon": "devicon-dot-net-plain" },
             { "name": "ASP.NET Core", "icon": "devicon-dotnetcore-plain" },
-            { "name": "Entity Framework", "icon": "devicon-entityframeworkcore-plain" },
             { "name": "Node.js", "icon": "devicon-nodejs-plain" },
+            { "name": "Express.js", "icon": "devicon-express-original" },
             { "name": "REST APIs", "icon": "bi bi-hdd-network" }
         ]
     },
@@ -52,7 +52,8 @@
             { "name": "SQL Server", "icon": "devicon-microsoftsqlserver-plain" },
             { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
             { "name": "SQLite", "icon": "devicon-sqlite-plain" },
-            { "name": "MongoDB", "icon": "devicon-mongodb-plain" }
+            { "name": "MongoDB", "icon": "devicon-mongodb-plain" },
+            { "name": "Entity Framework", "icon": "devicon-entityframeworkcore-plain" }
         ]
     },
     {
@@ -105,8 +106,23 @@
             { "name": "Claude Code", "icon": "bi bi-stars" },
             { "name": "GitHub Copilot", "icon": "bi bi-magic" },
             { "name": "n8n", "icon": "bi bi-diagram-3" },
-            { "name": "Ollama", "icon": "bi bi-cpu" },
+            { "name": "Ollama / Llama.cpp", "icon": "bi bi-cpu" },
             { "name": "Prompt Engineering", "icon": "bi bi-chat-square-text" }
+        ]
+    },
+    {
+        "kicker": {
+            "en": "Mobile development",
+            "pt": "Desenvolvimento mobile"
+        },
+        "title": {
+            "en": "Mobile",
+            "pt": "Mobile"
+        },
+        "icon": "bi-phone",
+        "tags": [
+            { "name": "React Native", "icon": "devicon-react-original" },
+            { "name": ".NET Maui", "icon": "devicon-dot-net-plain" }
         ]
     },
     {
