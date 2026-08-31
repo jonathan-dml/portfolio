@@ -9,7 +9,16 @@
             "pt": "Linguagens"
         },
         "icon": "bi-code-slash",
-        "tags": ["C#", "C/C++", "JavaScript", "Python", "SQL", "HTML", "CSS"]
+        "tags": [
+            { "name": "C#", "icon": "devicon-csharp-plain" },
+            { "name": "C/C++", "icon": "devicon-cplusplus-plain" },
+            { "name": "JavaScript", "icon": "devicon-javascript-plain" },
+            { "name": "TypeScript", "icon": "devicon-typescript-plain" },
+            { "name": "Python", "icon": "devicon-python-plain" },
+            { "name": "SQL", "icon": "bi bi-database" },
+            { "name": "HTML", "icon": "devicon-html5-plain" },
+            { "name": "CSS", "icon": "devicon-css3-plain" }
+        ]
     },
     {
         "kicker": {
@@ -21,7 +30,13 @@
             "pt": "Backend"
         },
         "icon": "bi-braces",
-        "tags": [".NET", "ASP.NET Core", "Entity Framework", "Node.js", "REST APIs"]
+        "tags": [
+            { "name": ".NET", "icon": "devicon-dot-net-plain" },
+            { "name": "ASP.NET Core", "icon": "devicon-dotnetcore-plain" },
+            { "name": "Entity Framework", "icon": "devicon-entityframeworkcore-plain" },
+            { "name": "Node.js", "icon": "devicon-nodejs-plain" },
+            { "name": "REST APIs", "icon": "bi bi-hdd-network" }
+        ]
     },
     {
         "kicker": {
@@ -33,7 +48,12 @@
             "pt": "Banco de Dados"
         },
         "icon": "bi-database",
-        "tags": ["SQL Server", "PostgreSQL", "SQLite", "MongoDB"]
+        "tags": [
+            { "name": "SQL Server", "icon": "devicon-microsoftsqlserver-plain" },
+            { "name": "PostgreSQL", "icon": "devicon-postgresql-plain" },
+            { "name": "SQLite", "icon": "devicon-sqlite-plain" },
+            { "name": "MongoDB", "icon": "devicon-mongodb-plain" }
+        ]
     },
     {
         "kicker": {
@@ -45,7 +65,13 @@
             "pt": "Frontend/UI"
         },
         "icon": "bi-layout-text-window-reverse",
-        "tags": ["React", "Blazor", "Razor Pages", "Bootstrap", "Sass"]
+        "tags": [
+            { "name": "React", "icon": "devicon-react-original" },
+            { "name": "Blazor", "icon": "devicon-blazor-original" },
+            { "name": "Next.js", "icon": "devicon-nextjs-plain" },
+            { "name": "Bootstrap", "icon": "devicon-bootstrap-plain" },
+            { "name": "Sass", "icon": "devicon-sass-original" }
+        ]
     },
     {
         "kicker": {
@@ -57,7 +83,13 @@
             "pt": "DevOps e Ferramentas"
         },
         "icon": "bi-tools",
-    "tags": ["Git", "GitHub", "Docker", "Azure", "GitHub Actions"]
+        "tags": [
+            { "name": "Git", "icon": "devicon-git-plain" },
+            { "name": "GitHub", "icon": "devicon-github-original" },
+            { "name": "Docker", "icon": "devicon-docker-plain" },
+            { "name": "Azure", "icon": "devicon-azure-plain" },
+            { "name": "GitHub Actions", "icon": "devicon-githubactions-plain" }
+        ]
     },
     {
         "kicker": {
@@ -69,7 +101,13 @@
             "pt": "IA e Automação"
         },
         "icon": "bi-robot",
-        "tags": ["Claude Code", "GitHub Copilot", "n8n", "Ollama", "Prompt Engineering"]
+        "tags": [
+            { "name": "Claude Code", "icon": "bi bi-stars" },
+            { "name": "GitHub Copilot", "icon": "bi bi-magic" },
+            { "name": "n8n", "icon": "bi bi-diagram-3" },
+            { "name": "Ollama", "icon": "bi bi-cpu" },
+            { "name": "Prompt Engineering", "icon": "bi bi-chat-square-text" }
+        ]
     },
     {
         "kicker": {
@@ -81,6 +119,11 @@
             "pt": "Fundamentos"
         },
         "icon": "bi-hand-thumbs-up",
-        "tags": ["Design Patterns", "SOLID", "Scrum", "Kanban"]
+        "tags": [
+            { "name": "Design Patterns", "icon": "bi bi-boxes" },
+            { "name": "SOLID", "icon": "bi bi-columns-gap" },
+            { "name": "Scrum", "icon": "bi bi-arrow-repeat" },
+            { "name": "Kanban", "icon": "bi bi-kanban" }
+        ]
     }
 ]

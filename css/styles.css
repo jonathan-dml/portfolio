@@ -555,19 +555,33 @@ body:before {
     margin: 4px 0 13px;
 }
 .skill-tags {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 14px;
+    margin: 0;
+    padding: 0;
+}
+.skill-tags li {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-}
-.skill-tags span {
+    align-items: center;
+    gap: 9px;
     color: var(--muted);
-    border: 1px solid var(--line);
-    padding: 5px 9px;
     font: 400 0.78rem var(--mono);
-    transition: border-color 0.3s ease, color 0.3s ease;
+    padding: 4px 2px;
+    transition: color 0.25s ease, transform 0.25s ease;
 }
-.skill-card:hover .skill-tags span {
-    border-color: rgba(101, 199, 238, 0.35);
+.skill-tags i {
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--blue);
+    transition: color 0.25s ease;
+}
+.skill-tags li:hover {
+    color: var(--blue-bright);
+    transform: translateX(4px);
+}
+.skill-tags li:hover i {
     color: var(--blue-bright);
 }
 .projects-grid {

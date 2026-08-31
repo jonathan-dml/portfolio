@@ -29,12 +29,16 @@ function createSkillCard(skill, index, total) {
     const title = document.createElement("h3");
     title.textContent = skill.title[getCurrentLanguage()];
 
-    const tags = document.createElement("div");
+    const tags = document.createElement("ul");
     tags.className = "skill-tags";
-    skill.tags.forEach((tagText) => {
-        const tag = document.createElement("span");
-        tag.textContent = tagText;
-        tags.append(tag);
+    skill.tags.forEach((tag) => {
+        const item = document.createElement("li");
+        const tagIcon = document.createElement("i");
+        tagIcon.className = tag.icon;
+        const tagLabel = document.createElement("span");
+        tagLabel.textContent = tag.name;
+        item.append(tagIcon, tagLabel);
+        tags.append(item);
     });
 
     content.append(kicker, title, tags);
