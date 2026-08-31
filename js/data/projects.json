@@ -43,6 +43,29 @@
     },
     {
         "imageClass": "project-image",
+        "image": "assets/tasklists.png",
+        "imageAlt": "Task list manager",
+        "tags": [
+            { "label": ".NET", "className": "tag-purple" },
+            { "label": "C#", "className": "tag-csharp" },
+            { "label": "Blazor", "className": "tag-purple" },
+            { "label": "PostgreSQL", "className": "tag-blue" },
+            { "label": "HTML/CSS", "className": "tag-html" },
+            { "label": "Azure", "className": "tag-blue" }
+        ],
+        "title": {
+            "en": "Task List Manager",
+            "pt": "Gerenciador de Lista de Tarefas"
+        },
+        "description": {
+            "en": "A simple task list manager that allows you to create, edit, and delete tasks.",
+            "pt": "Um gerenciador de lista de tarefas simples que permite criar, editar e excluir tarefas."
+        },
+        "codeUrl": "https://github.com/jonathan-dml/task_list_manager",
+        "demoUrl": "https://tasklist-gna8dehvbbgwdjf7.canadacentral-01.azurewebsites.net/"
+    },
+    {
+        "imageClass": "project-image",
         "image": "assets/squarepainter.png",
         "imageAlt": "Square Painter image",
         "tags": [
